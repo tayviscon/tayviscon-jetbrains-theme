@@ -1,7 +1,5 @@
-<!-- Keep a Changelog guide -> https://keepachangelog.com -->
+# Changelog
 
-# tayviscon-jetbrains-theme Changelog
+## 1.0.0
+- this theme is not completely conform the specification of tayviscon-theme
 
-## [Unreleased]
-### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)

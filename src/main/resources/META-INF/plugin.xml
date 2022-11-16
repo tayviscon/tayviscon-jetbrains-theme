@@ -1,18 +1,13 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.tayviscon.tayvisconjetbrainstheme</id>
-    <name>tayviscon-jetbrains-theme</name>
-    <vendor>tayviscon</vendor>
-
-    <depends>com.intellij.modules.platform</depends>
-
+    <id>com.tayviscon.idea</id>
+    <name>Tayviscon Theme</name>
+    <vendor>Tayviscon</vendor>
+    <depends>com.intellij.modules.lang</depends>
+    <idea-version since-build="221"/>
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.tayviscon.tayvisconjetbrainstheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.tayviscon.tayvisconjetbrainstheme.services.MyProjectService"/>
+        <applicationService serviceImplementation="ru.tayviscontheme.jetbrains.settings.TayvisconSettings"/>
+        <postStartupActivity implementation="ru.tayviscontheme.jetbrains.activities.TayvisconStartupActivity"/>
+        <notificationGroup displayType="STICKY_BALLOON" id="Tayviscon Theme" isLogByDefault="true"/>
+        <themeProvider id="446c2256-013d-4a49-89d5-5544462541ca" path="/themes/Tayviscon.theme.json"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.tayviscon.tayvisconjetbrainstheme.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

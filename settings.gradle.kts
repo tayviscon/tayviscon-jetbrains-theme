@@ -1,1 +1,1 @@
-rootProject.name = "tayviscon-jetbrains-theme"
+rootProject.name = "tayviscon-theme"
