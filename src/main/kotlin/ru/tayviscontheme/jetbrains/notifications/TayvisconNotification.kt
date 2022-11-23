@@ -18,7 +18,6 @@ object TayvisconNotification {
     @Language("HTML")
     private val footerMessage = """
         <p>Thank you for choosing Tayviscon</p>
-        <br>
         <p>
             <a href="https://github.com/tayviscon/tayviscon-jetbrains-theme">GitHub</a>
         </p>
