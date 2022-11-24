@@ -9,7 +9,7 @@
 
 ## Install 
 
-All instructions can be found at 
+All instructions can be found at [theme repository](https://github.com/tayviscon/tayviscon-jetbrains-theme/blob/main/INSTALL.md)
 
 ## Team
 This theme is maintained by the following person(s) and a bunch

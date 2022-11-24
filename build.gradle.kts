@@ -54,6 +54,19 @@ tasks {
         val description = """
             <div>
               <p>Tayviscon Theme for JetBrains</p>
+              <br />
+              <p>
+                <img
+                  alt="Screenshot"
+                  src="https://github.com/tayviscon/tayviscon-jetbrains-theme/raw/main/screenshot.png"
+                  width="600"
+                />
+              </p>
+              <h2>Install</h2>
+              <p>
+                All instructions can be found at
+                <a href="https://github.com/tayviscon/tayviscon-jetbrains-theme/blob/main/INSTALL.md">theme repository</a>.
+              </p>
             </div>
         """.trimIndent()
 
