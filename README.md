@@ -1,5 +1,4 @@
 # Tayviscon for [JetBrains IDE](https://www.jetbrains.com/)
-![Build](https://github.com/TAYVISCON/tayviscon-jetbrains-theme/workflows/Build/badge.svg)
 ![Version](https://img.shields.io/jetbrains/plugin/v/com.tayviscon.idea.svg)
 ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.tayviscon.idea.svg)
 > A tayviscon theme for [JetBrains IDE](https://www.jetbrains.com/)
